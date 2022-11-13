@@ -1,0 +1,28 @@
+#carouselExampleIndicators{
+    width: 500px; 
+    height: 500px;    
+}
+#carrousell{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: green;
+    width: 100%;
+
+
+}
+.titulo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: green;
+        display:flex;
+        flex-direction: row;
+        }
+
