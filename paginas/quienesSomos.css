@@ -2,12 +2,6 @@
     margin: 0%;
     padding: 0%;
     }
-#form{
-    display: flex;
-    flex: row;
-    justify-content: center;
-}
-
 .navBar{
     display: flex;
     flex-direction: row;
@@ -33,4 +27,18 @@
 #logo{
     width: 200px;
     height: 200px;
+}
+
+#imagen{
+
+    justify-content: center;
+    width: 600px;
+    height: 850px;
+}
+#img{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
