@@ -1,8 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
 #carouselExampleIndicators{
     width: 500px; 
     height: 500px;    
 }
 #carrousell{
+    background-color: black;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -20,9 +25,21 @@
 
 }
 .titulo{
+        color: aliceblue;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: green;
         display:flex;
         flex-direction: row;
+        justify-content: center;
+        text-align: center;
         }
+#contenedorTiempo{
+                    color:aliceblue;
+                    background-color: blue;
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+}
 

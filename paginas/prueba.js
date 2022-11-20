@@ -1,5 +1,3 @@
-
-
 class Productos {
     constructor(producto, precio, stock,){
         this.producto = producto;
@@ -32,14 +30,15 @@ arrayProductos.forEach(Productos => {
     </div>
   </div> ` 
     contenedorProductos.appendChild(div);
+    
 })
 
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", (e) => {
-  e.preventDefault();
+btn.addEventListener("click", ()=> {
+
     alert("haz añadido el producto al carrito") 
-    
+    Productos.push (compra);
   });
  
 const compra = [];
